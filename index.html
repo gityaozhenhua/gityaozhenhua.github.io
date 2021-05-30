@@ -110,12 +110,22 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+    <a href="/" rel="section"><i class="home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="th fa-fw"></i>Categories</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+    <a href="/archives/" rel="section"><i class="archive fa-fw"></i>Archives</a>
 
   </li>
   </ul>
@@ -141,82 +151,6 @@
 
           <div class="content index posts-expand">
             
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/30/TCP-IP/tcp-ip/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/05/30/TCP-IP/tcp-ip/" class="post-title-link" itemprop="url">TCP/IP网络编程</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-05-30 12:16:23 / Modified: 12:34:10" itemprop="dateCreated datePublished" datetime="2021-05-30T12:16:23+08:00">2021-05-30</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><h2 id="1，第一章"><a href="#1，第一章" class="headerlink" title="1，第一章"></a>1，第一章</h2><p>socket 函数；Socket、bind、listen、accept、connect</p>
-<p>Close、文件操作：open、write、read</p>
-<p>参数：sock_stream、sock_dgram</p>
-<h2 id="2，第二三章-地址族、数据序列"><a href="#2，第二三章-地址族、数据序列" class="headerlink" title="2，第二三章 地址族、数据序列"></a>2，第二三章 地址族、数据序列</h2><p>Sockaddr_in 结构体</p>
-<p>网络字节序（大端字节序、小端字节序）</p>
-<p>小端字节序（高字节放高地址）大端序（高字节放低地址）</p>
-<p>字节序转换函数：htons、ntohs、htonl、ntohl</p>
-<h2 id="3、tcp-utp"><a href="#3、tcp-utp" class="headerlink" title="3、tcp utp"></a>3、tcp utp</h2><p>四层协议</p>
-<p>Tcp调用顺序;sockt – bind – listen – accept –read/write –close</p>
-<p>Connect</p>
-<h2 id="4、第五章"><a href="#4、第五章" class="headerlink" title="4、第五章"></a>4、第五章</h2><p>Write read的坑、Tcp 缓冲区</p>
-<h2 id="5、第六章"><a href="#5、第六章" class="headerlink" title="5、第六章"></a>5、第六章</h2><p>Utp </p>
-<p>函数：sendto 、recvfrom</p>
-<h2 id="6、第七章"><a href="#6、第七章" class="headerlink" title="6、第七章"></a>6、第七章</h2><p>Tcp 半关闭状态 shutdown函数</p>
-<h2 id="7、第八章"><a href="#7、第八章" class="headerlink" title="7、第八章"></a>7、第八章</h2><p>Dns 域名解析 一些列函数 用域名获取IP地址函数gethostbyname()</p>
-<p>利用iP地址获取域名</p>
-<h2 id="8、套接字的选项"><a href="#8、套接字的选项" class="headerlink" title="8、套接字的选项"></a>8、套接字的选项</h2><p>可以设置套接字的缓冲区。</p>
-<p>Time-wait 状态SO_REUSEADDR可选项 理解，四次挥手状态中</p>
-<h2 id="9、多进程"><a href="#9、多进程" class="headerlink" title="9、多进程"></a>9、多进程</h2>
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
       
   
   
@@ -303,7 +237,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-05-30 10:31:13 / Modified: 13:18:33" itemprop="dateCreated datePublished" datetime="2021-05-30T10:31:13+08:00">2021-05-30</time>
+              <time title="Created: 2021-05-30 10:31:13 / Modified: 23:10:01" itemprop="dateCreated datePublished" datetime="2021-05-30T10:31:13+08:00">2021-05-30</time>
             </span>
 
           
@@ -321,6 +255,7 @@
 <h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a target="_blank" rel="noopener" href="https://telcruel.gitee.io/2020/02/13/Hexo/">https://telcruel.gitee.io/2020/02/13/Hexo/</a></p>
 <h2 id="博客参考"><a href="#博客参考" class="headerlink" title="博客参考"></a>博客参考</h2><p><a target="_blank" rel="noopener" href="https://telcruel.gitee.io/">https://telcruel.gitee.io/</a></p>
 <h2 id="Hexo博客优化之Next主题美化"><a href="#Hexo博客优化之Next主题美化" class="headerlink" title="Hexo博客优化之Next主题美化"></a>Hexo博客优化之Next主题美化</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/nightmare_dimple/article/details/86661502">https://blog.csdn.net/nightmare_dimple/article/details/86661502</a></p>
+<h2 id="hexo博客系统分类和标签的使用"><a href="#hexo博客系统分类和标签的使用" class="headerlink" title="hexo博客系统分类和标签的使用"></a>hexo博客系统分类和标签的使用</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/formemorywithyou/article/details/97029824">https://blog.csdn.net/formemorywithyou/article/details/97029824</a></p>
 
       
     </div>
@@ -340,7 +275,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/30/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/30/TCP-IP/tcp-ip/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -354,7 +289,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/05/30/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+            <a href="/2021/05/30/TCP-IP/tcp-ip/" class="post-title-link" itemprop="url">TCP/IP网络编程</a>
         </h2>
 
         <div class="post-meta">
@@ -363,8 +298,9 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
+              
 
-              <time title="Created: 2021-05-30 10:27:19" itemprop="dateCreated datePublished" datetime="2021-05-30T10:27:19+08:00">2021-05-30</time>
+              <time title="Created: 2021-05-30 00:00:00 / Modified: 23:07:52" itemprop="dateCreated datePublished" datetime="2021-05-30T00:00:00+08:00">2021-05-30</time>
             </span>
 
           
@@ -378,20 +314,25 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+          <h1 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h1><h2 id="1，第一章"><a href="#1，第一章" class="headerlink" title="1，第一章"></a>1，第一章</h2><p>socket 函数；Socket、bind、listen、accept、connect</p>
+<p>Close、文件操作：open、write、read</p>
+<p>参数：sock_stream、sock_dgram</p>
+<h2 id="2，第二三章-地址族、数据序列"><a href="#2，第二三章-地址族、数据序列" class="headerlink" title="2，第二三章 地址族、数据序列"></a>2，第二三章 地址族、数据序列</h2><p>Sockaddr_in 结构体</p>
+<p>网络字节序（大端字节序、小端字节序）</p>
+<p>小端字节序（高字节放高地址）大端序（高字节放低地址）</p>
+<p>字节序转换函数：htons、ntohs、htonl、ntohl</p>
+<h2 id="3、tcp-utp"><a href="#3、tcp-utp" class="headerlink" title="3、tcp utp"></a>3、tcp utp</h2><p>四层协议</p>
+<p>Tcp调用顺序;sockt – bind – listen – accept –read/write –close</p>
+<p>Connect</p>
+<h2 id="4、第五章"><a href="#4、第五章" class="headerlink" title="4、第五章"></a>4、第五章</h2><p>Write read的坑、Tcp 缓冲区</p>
+<h2 id="5、第六章"><a href="#5、第六章" class="headerlink" title="5、第六章"></a>5、第六章</h2><p>Utp </p>
+<p>函数：sendto 、recvfrom</p>
+<h2 id="6、第七章"><a href="#6、第七章" class="headerlink" title="6、第七章"></a>6、第七章</h2><p>Tcp 半关闭状态 shutdown函数</p>
+<h2 id="7、第八章"><a href="#7、第八章" class="headerlink" title="7、第八章"></a>7、第八章</h2><p>Dns 域名解析 一些列函数 用域名获取IP地址函数gethostbyname()</p>
+<p>利用iP地址获取域名</p>
+<h2 id="8、套接字的选项"><a href="#8、套接字的选项" class="headerlink" title="8、套接字的选项"></a>8、套接字的选项</h2><p>可以设置套接字的缓冲区。</p>
+<p>Time-wait 状态SO_REUSEADDR可选项 理解，四次挥手状态中</p>
+<h2 id="9、多进程"><a href="#9、多进程" class="headerlink" title="9、多进程"></a>9、多进程</h2>
       
     </div>
 
@@ -472,9 +413,15 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
 </div>
